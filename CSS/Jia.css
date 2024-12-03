@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the Header Section */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+   
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 30px;
+    padding: 2rem;
+}
+
+.cart{
+    display: flex;
+    margin-inline: 100px;
+    gap: 20px;
+}
+
+.main a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: 500;
+}
+
+.main a:hover{
+    text-decoration: underline;
+
+}
+
+/* Styling the section Container About */
+
+.about{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: papayawhip;
+    margin-bottom: 6rem;
+}
+
+.head{
+    text-align: center;
+    padding: 8rem;
+}
+
+.shop{
+    font-size: 1.1rem;
+    
+    font-weight: 700;
+    text-align:justify;
+}
+
+/* Styling the Footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem;
+    background: gainsboro;
+
+}
+
+footer ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+ footer a{
+    text-decoration: none;
+    color: #333;
+ 
+ }

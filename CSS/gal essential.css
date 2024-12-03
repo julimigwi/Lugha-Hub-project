@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the h1 */
+h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: papayawhip;
+
+    
+}
+
+.gal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem;
+}
+
+.gal img{
+    border: 1px solid black;
+}
+
+
+
+
+/* Styling the Footer */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem;
+    background: gainsboro;
+
+}
+
+footer ul{
+    list-style-type: none;
+    font-size: 1.2rem;
+}
+ footer a{
+    text-decoration: none;
+    color: #333;
+ 
+ }
